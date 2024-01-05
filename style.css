@@ -67,7 +67,7 @@ body {
 
 .mynavbar .navbar-brand, .mynavbar .offcanvas-title {
     font-family: sacramento, cursive;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -359,6 +359,11 @@ footer li {
     html {
       font-size: 60%;
     }
+
+    .mynavbar .nav-link {
+        font-size: 1rem;
+        text-align: center;
+      }
   
     .simply-countdown > .simply-section {
       padding: 45px;
