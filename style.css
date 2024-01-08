@@ -192,13 +192,11 @@ body {
     padding-top: 10rem;
     padding-bottom: 8rem;
     text-align: center;
-    min-height: 100vh;
 }
 
 .countdownmen {
     background-image: url(img/bgrnd.png);
     padding-top: 10rem;
-    min-height: 100vh;
 }
 
 .countdownmen h2 {
