@@ -130,7 +130,7 @@ body {
     background-image: url(img/bgrnd.png);
     color: #666;
     padding-top: 7rem;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
 }
 
 .info .alamat {
@@ -187,12 +187,13 @@ body {
     padding-top: 10rem;
     padding-bottom: 8rem;
     text-align: center;
+    min-height: 100vh;
 }
 
 .countdownmen {
     background-image: url(img/bgrnd.png);
     padding-top: 10rem;
-    min-height: 80vh;
+    min-height: 100vh;
 }
 
 .countdownmen h2 {
@@ -206,7 +207,7 @@ body {
     background-image: url(img/bgrnd.png);
     width: 100%;
     padding-top: 10rem;
-    min-height: 75vh;
+    min-height: 100vh;
 }
 
 .rsvp h2 {
@@ -227,13 +228,27 @@ body {
 
 .gifts {
     background-image: url(img/bgrnd.png);
-    padding-top: 10rem;
+    padding-top: 5rem;
     padding-bottom: 8rem;
+    min-height: 100vh;
 }
 
 .gifts span {
-    font-size: 1rem;
-    font-weight: 300;
+    color: #666;
+    font-family: playfair display;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.gifts h2 {
+    color: #666;
+    font-family: playfair display;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.gifts h1 {
+    font-size: 1.2rem;
 }
 
 footer {
