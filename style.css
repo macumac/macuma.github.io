@@ -75,6 +75,7 @@ body {
     text-transform: uppercase;
     font-size: 1.5rem;
     margin: 10px;
+    color: #999;
 }
 
 .home {
@@ -82,7 +83,7 @@ body {
     background-size: cover;
     min-height: 100vh;
     margin-top: -8rem;
-    padding-top: 15rem;
+    padding-top: 11rem;
     padding-bottom: 5rem;
 }
 
@@ -114,9 +115,9 @@ body {
 }
 
 .home .couple h3 {
-    font-family: 'sacramento';
+    font-family: 'playfair display';
     font-size: 2.4rem;
-    color: var(--black);
+    color: #666;
 }
 
 .home .couple img {
@@ -128,7 +129,8 @@ body {
 .info {
     background-image: url(img/bgrnd.png);
     color: #666;
-    padding-top: 10rem;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
 }
 
 .info .alamat {
@@ -149,6 +151,11 @@ body {
 
 .info .card-body {
     font-size: 1rem;
+}
+
+.info .lokasi a {
+    background-color:#444;
+    color: white;
 }
 
 .gallery {
