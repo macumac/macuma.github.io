@@ -142,7 +142,10 @@ body {
 }
 
 .info .alamat {
-    font-size: 1.1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'playfair display';
+    font-size: 1.5rem;
 }
 
 .info .card {
@@ -161,8 +164,13 @@ body {
     font-size: 1rem;
 }
 
-.info .lokasi a {
-    background-color:#444;
+.info .lokasi .mapouter {
+    margin-top: 1.5rem;
+}
+
+.info .lokasi .mapouter a {
+    background-color: #666;
+    font-size: 1.5rem;
     color: white;
 }
 
